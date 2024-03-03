@@ -6,7 +6,7 @@ EXPOSE 3000
 
 COPY package.json package-lock.json ./
 
-Run npm install --silent
+RUN  npm install --silent
 
 COPY . ./
 
